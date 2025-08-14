@@ -26,6 +26,9 @@ import {
     typescript
 } from "../assets/icons";
 
+import itHtmlCss from '../assets/certificates/it-specialist-html-and-css.png'
+
+
 export const skills = [
     {
         imageUrl: css,
@@ -189,5 +192,46 @@ export const projects = [
         name: 'Coffee and Wifi',
         description: 'A Flask app to crowdsource laptop-friendly cafés, using Flask-WTF for validated forms, Bootstrap 5 for UI, and CSV-based persistence with a browsable listing page.',
         link: 'https://github.com/AyaneTakagi/Python-Projects/tree/main/project-62-coffee-and-wifi',
+    }
+];
+
+export const certificates = [
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'IT Specialist - HTML and CSS',
+        issuer: "Certiport",
+        image: itHtmlCss,
+        link: 'https://www.credly.com/badges/cdce0bd9-7a4f-4cf4-8e77-975a95777a4f/linked_in_profile',
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'IT Specialist - Python',
+        link: 'https://www.credly.com/badges/a49f3c81-4042-4d2a-9aa0-4eb7d392c308/linked_in_profile',
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'NVIDIA Fundamentals of Deep Learning',
+        link: 'https://learn.nvidia.com/certificates?id=LF6xMGnmRrKUlYyXUNxMFg',
+    },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-pink',
+        name: 'NVIDIA Generative AI with Diffusion Models',
+        link: 'https://learn.nvidia.com/certificates?id=lnRQ7jlFQTCBZwuiVzpGsg',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'NVIDIA Building Transformer-Based Natural Language Processing Applications',
+        link: 'https://learn.nvidia.com/certificates?id=czwKf56fTMa90j0pzl9muA',
+    },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'NVIDIA Computer Vision for Industrial Inspection',
+        link: 'https://learn.nvidia.com/certificates?id=2ouh_7-cQnaaayyJ46BWfg',
     }
 ];
