@@ -19,6 +19,19 @@ const About = () => {
       </div>
 
       <div className="py-10 flex flex-col">
+        <h3 className="subhead-text">My Favourites</h3>
+        
+        <div className="mt-5 flex flex-col gap-3 text-slate-500">
+          <p className="text-slate-500">A few things I enjoy outside of code.</p>
+          <ul className="mt-2 flex flex-wrap gap-2 text-sm">
+            {["Swimming","Sking","Ballet","Travel"].map(i=>(
+              <li key={i} className="rounded-full bg-white/70 px-3 py-1 ring-1 ring-slate-200">{i}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
 
         <div className="mt-16 flex flex-wrap gap-12">
