@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 const App = () => {
   return (
     <main className="bg-slate-300/20 min-h-screen">
-      <Router>
+      <Router basename="/Limelight-Internship-Responsive-Web-Design-Website">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
